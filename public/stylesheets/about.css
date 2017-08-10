@@ -1,0 +1,15 @@
+
+
+.mePic{
+    border-radius:5%;
+    border:1px solid black;
+    float:right;
+    max-height: 28rem;
+    max-width: 28rem;
+    margin-right:17%;
+    margin-left:2rem;
+}
+
+.meText{
+    float:right;
+}

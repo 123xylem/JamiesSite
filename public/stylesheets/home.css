@@ -1,0 +1,56 @@
+.homeImg{
+        margin: auto 0  30px 38%;
+        max-height: 400px;
+        max-width: 400px;
+
+}
+.homeImg2{
+float:right;
+border:1px solid black;
+margin-left:10px;
+margin-right:50%;
+max-height: 400px;
+max-width: 400px;
+
+}
+
+.homeTitle{
+    text-align:center;
+    margin-bottom:5rem;
+    margin-top:-40px;
+}
+
+.homeH2{
+    margin-left:2rem;
+    margin-bottom:30px;
+}
+.homeH3{
+    margin-top:3rem;
+    margin-left:2rem;
+    margin-bottom:1.5rem;
+}
+
+.homeP{
+    margin-left:2rem;
+}
+
+.homeImg2{
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 25%;
+    border:1px solid black;
+     float:right;
+    margin:20px;
+    margin-top:-5rem;
+    margin-right:15rem;
+}
+
+.homeP2{
+    margin-top:5rem;
+    margin-left:2rem;
+}
+
+.homeList2{
+/*margin-left:3rem;    */
+margin-bottom:2rem;    
+}

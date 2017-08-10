@@ -1,0 +1,40 @@
+@import "gallery.css";
+@import "responsive.css";
+@import "home.css";
+@import "about.css";
+@import "contact.css";
+@import "footer.css";
+@import "studies.css";
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+   font-family: 'Open Sans', sans-serif;
+   background-color:white;
+   margin:0;
+   margin-bottom: 5rem;
+   padding:0;
+}
+
+.navbar{
+    margin-bottom: 10rem;
+}
+
+h1{
+    font-size:3rem;
+    font-weight: 700;
+    text-decoration: underline;
+ margin-left: 5rem;
+ margin-bottom:5rem;}
+
+h2{
+    text-decoration: underline;
+     margin-left: 3rem;
+     margin-bottom:5rem;
+    
+}
+
+p{
+    margin-left: 5rem;}
+

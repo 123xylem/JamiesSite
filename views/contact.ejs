@@ -1,0 +1,49 @@
+<% include ./partials/header.ejs %>
+
+<h1 class="contactTitle"> Contact Us </h1>
+
+<img class="contactImg" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRUt8tWlHRh0WjEGgI31QfTUe9DqIbIhpg2SLac3AE-4O6BjsRNA">
+<div>
+    <p> We aim to be an integral part of the our local community and so we strive to make it easy for you to stay in contact with us.</p>
+   <p> If you have any queries feel free to give us a ring or an email! </p>
+
+</div>
+
+<form class="contactForm responsiveContact">
+       <input type="text" placeholder="Name" name="name">
+       <input type="text" placeholder="Email" name="Email">
+       <textarea placeholder="Enter Your Query Here" name="message"></textarea>
+       <input type="submit" class="btn btn-default btn-primary">
+   </form>
+   <div>
+             <div class="responsiveContact" id="map"></div>
+    <script>
+      function initMap() {
+        var london = {lat:51.39401,  lng:-0.302662};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: london
+        });
+        var marker = new google.maps.Marker({
+          position: london,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSlGVsa2fgJGeHrRV62TPbNe_kPrdP3JI&callback=initMap">
+    </script>    </div>
+
+    
+    <ul class="responsiveContact contactList">
+        <li> <strong>Phone :</strong> 0201291381301</li>
+        <li> <strong>Email :</strong>LangridgeTherapy@gmail.com</li>
+        <li> <strong>Address :</strong> 112 rutuns road london SW 5</li>
+    </ul>
+
+  
+   
+<div class="clearfix"></div>
+ 
+
+<% include ./partials/footer.ejs %>
